@@ -46,8 +46,11 @@ class MainActivity : AppCompatActivity() {
             currentTrack.stop()
             if (soundIndex<songLst.size-1){
             soundIndex++
+                Toast.makeText(this, "переключено!", Toast.LENGTH_SHORT).show()
             }else{
                 soundIndex=0
+                Toast.makeText(this, "переключено!", Toast.LENGTH_SHORT).show()
+
             }
             currentTrack = MediaPlayer.create(this, songLst[soundIndex])
             currentTrack.start()
