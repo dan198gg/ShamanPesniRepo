@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shaman песни</string>
+    <string name="app_test">Test</string>
+    <string name="ya_russki">Я русский</string>
+    <string name="russia">Россия</string>
+    <string name="ogon">огонь</string>
+    <string name="next_sound">Следующий звук</string>
+    <string name="options">Настройки</string>
+    <string name="tost">tost</string>
+    <string name="viberite_temu">Выберите тему</string>
+</resources>

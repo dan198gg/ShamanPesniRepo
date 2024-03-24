@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundSong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/russia_background"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitCenter"
+            
+            android:src="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/btnStpPly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitCenter"
+            android:src="@drawable/stop_play"
+            />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next"
+
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageSong"
+        android:layout_width="350dp"
+
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/russia_song_img" />
+
+    <TextView
+        android:id="@+id/textSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="110dp"
+        android:text="@string/russia"
+
+
+        android:textSize="30dp" />
+
+
+</FrameLayout>
